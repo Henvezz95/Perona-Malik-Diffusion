@@ -1,10 +1,4 @@
-function diff_im = Explicit_PM_modified(im, num_iter, delta_t, kappa, option,sigma)
-
-%   diff_im = Explicit_PM_modified(im, num_iter, delta_t, kappa, option,sigma) perfoms 
-%   conventional anisotropic diffusion (Perona & Malik) upon a gray scale
-%   image. A 2D network structure of 4 neighboring nodes is considered for 
-%   diffusion conduction.
-
+function diff_im = Explicit_PM_modified(im, num_iter, delta_t, kappa, option, sigma)
 %       ARGUMENT DESCRIPTION:
 %               im       - gray scale image (MxN).
 %               num_iter - number of iterations. 
@@ -22,7 +16,6 @@ function diff_im = Explicit_PM_modified(im, num_iter, delta_t, kappa, option,sig
 %                diff_im - (diffused) image with the largest scale-space parameter.
 % 
 % Based on anisodiff2D by Daniel Simoes Lopes
-% May 2007 version.
 
 % Convert input image to double.
 im = double(im);
@@ -103,5 +96,5 @@ for t = 1:num_iter
     fprintf('\rIteration %d\n',t);
 end
 
-figure('Name','Semi-Implicit Perona Malik');
+figure('Name','Explicit Perona Malik');
 imshow(uint8(diff_im));
