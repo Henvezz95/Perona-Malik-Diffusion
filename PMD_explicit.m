@@ -14,8 +14,6 @@ function diff_im = Explicit_PM_modified(im, num_iter, delta_t, kappa, option, si
 %                         the image to find the values of c(x,y,t)
 %       OUTPUT DESCRIPTION:
 %                diff_im - (diffused) image with the largest scale-space parameter.
-% 
-% Based on anisodiff2D by Daniel Simoes Lopes
 
 % Convert input image to double.
 im = double(im);
