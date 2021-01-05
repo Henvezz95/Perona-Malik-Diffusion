@@ -29,7 +29,4 @@ elseif type == 2
     
     g_taps = 1./(1 + (squared_norm/kappa^2));
     
-end
-
-      
-      
+end   
