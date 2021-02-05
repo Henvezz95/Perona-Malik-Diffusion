@@ -11,7 +11,7 @@ hY = [0 0 0; -1 0 1; 0 0 0];
 % Finite differences
 nablaX = imfilter(im,hX,'conv');
 nablaY = imfilter(im,hY,'conv');   
-    % Neumann boundary condition: isolated system
+% Neumann boundary condition: isolated system
 nablaX(1,:) = 0;
 nablaX(end,:) = 0;
 nablaY(1,:) = 0;
