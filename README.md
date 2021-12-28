@@ -4,6 +4,6 @@ The main idea is to blur the uniform areas of the images to wash out noise, whil
 It is based on the equation of heat diffusion in a non-uniform medium. Different brightness levels aree treated as different temperatures and edges are considered as materials with a low heat diffusion coefficient(thermal insulating material). The equation theat describes the Perona-Malik diffusion is the following:
 
 
-![Anisotropic Diffusion Formula](_img1.svg)
+![Anisotropic Diffusion Formula](_img1.jpg)
 
 
