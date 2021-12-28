@@ -5,6 +5,10 @@ It is based on the equation of heat diffusion in a non-uniform medium. Different
 
 
 ![Anisotropic Diffusion Formula](_img1.jpg)
+
+
+
+
 where I is the intensity function representing the brightness lebels of the image and c is a function that is equal to 1 when the gradient norm is zero and goes to 1 when the gradient norm tends to infinity.
 
 The folder contains both an explicit solution and a semi-implicit solution to the differential equation. 
