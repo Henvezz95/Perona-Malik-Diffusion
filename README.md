@@ -11,5 +11,5 @@ It is based on the equation of heat diffusion in a non-uniform medium. Different
 
 where I is the intensity function representing the brightness levels of the image and c is a function that is equal to 1 when the gradient norm is zero and goes to 1 when the gradient norm tends to infinity.
 
-The folder contains both an explicit solution and a semi-implicit solution to the differential equation. 
+The folder contains both an explicit solution and a semi-implicit solution to the differential equation in MATLAB. It can be used to remove noise from both gray-scale and RGB images. 
 
