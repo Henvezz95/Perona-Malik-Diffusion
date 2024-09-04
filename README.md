@@ -22,5 +22,5 @@ This repository takes inspiration from this [paper](https://www.researchgate.net
 
 # Results
 The advantage of the Perona-Malik diffusion is that it removes noise by blurring the smooth areas of the image while preserving the edges.
-![Anisotropic Diffusion Examples](Perona-Malik-anisotropic-diffusion-results-a-noisy-image-b-denoised-image-after.png).
-Perona-Malik anisotropic diffusion results (explicit method): (a) noisy image, (b) denoised image after 10 iterations, (c) denoised image after 30 iterations, (d) denoised image after 60 iterations.
+![Anisotropic Diffusion Examples](Perona-Malik-anisotropic-diffusion-results-a-noisy-image-b-denoised-image.png).
+Perona-Malik anisotropic diffusion results (explicit method): (a) noisy image, (b) denoised image after 10 iterations.
